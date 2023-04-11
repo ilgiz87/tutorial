@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouMeal — Только самые сочные бургеры!</title>
+    <!-- favicon start -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/icons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/icons/safari-pinned-tab.svg"
+      color="#ff7722"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- favicon end -->
+    <link rel="preconnect" href="images/sprites.svg" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="/" class="logo__link">
+            <svg class="logo__img" style="fill: currentColor">
+              <use xlink:href="images/sprites.svg#logo" />
+            </svg>
+          </a>
+        </div>
+        <!-- /logo -->
+        <div class="header__content">
+          <div class="header__img-box">
+            <img
+              class="header__img"
+              src="images/burger-optim.svg"
+              alt="burger"
+            />
+          </div>
+          <div class="header__text">
+            <h1 class="header__litle">
+              Только самые <span>сочные бургеры!</span>
+            </h1>
+            <p class="descr">Бесплатная доставка от 599₽</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <nav class="navbar">
+        <button class="navbar__btn navbar__btn--burger active">Бургеры</button>
+        <button class="navbar__btn navbar__btn--snack">Закуски</button>
+        <button class="navbar__btn navbar__btn--hotdog">Хот-доги</button>
+        <button class="navbar__btn navbar__btn--combo">Комбо</button>
+        <button class="navbar__btn navbar__btn--shawarma">Шаурма</button>
+        <button class="navbar__btn navbar__btn--pizza">Пицца</button>
+        <button class="navbar__btn navbar__btn--wok">Вок</button>
+        <button class="navbar__btn navbar__btn--donut">Десерты</button>
+        <button class="navbar__btn navbar__btn--sauce">Соусы</button>
+      </nav>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__logo">
+            <a href="/" class="footer__logo-link">
+              <svg class="footer__logo-img" style="fill: currentColor">
+                <use xlink:href="images/sprites.svg#logo" />
+              </svg>
+            </a>
+          </div>
+          <!-- /footer__logo -->
+          <div class="footer__phone">
+            <h4>Номер для заказа</h4>
+            <a href="tel:+79308333811" class="footer__phone-link">
+              <svg class="footer__phone-img" >
+                <use xlink:href="images/sprites.svg#phone" />
+              </svg>
+              +7(930)833-38-11
+            </a>
+          </div>
+          <!-- /footer__phone -->
+          <div class="footer__social">
+            <h4>Мы в соцсетях</h4>
+            <div class="footer__social-links">
+              <a href="#" class="footer__social-link">
+                <svg class="footer__social-vk" >
+                  <use xlink:href="images/sprites.svg#vk" />
+                </svg>
+              </a>
+              <a href="#" class="footer__social-link">
+                <svg class="footer__social-tg" >
+                  <use xlink:href="images/sprites.svg#tg" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /footer__inner -->
+        <div class="footer__copy">
+          <span class="copy">YouMeal, 2022</span>
+          <span> Design: Anastasia Ilina</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

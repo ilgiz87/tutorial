@@ -1,0 +1,25 @@
+.intro__row {
+    display: grid;
+    gap: 40px 80px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "text img"
+    "form img"
+    
+}
+
+.intro__text-box {
+    grid-area: text;
+    align-self: end;
+}
+
+.inrto__img-box {
+    grid-area: img;
+
+}
+
+.inrto__form {
+    
+    grid-area: form;
+}
+@import "./form";

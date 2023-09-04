@@ -1,0 +1,16 @@
+.btn{
+    display: inline-flex;
+    padding: .6em 1.25em;
+    border: 1px solid currentcolor;
+    border-radius: .5em;
+    
+}
+.btn__login {
+    color: var(--dark-color);
+    background: var(--light-color);
+  }
+  .btn__sign-up {
+    background: var(--dark-color);
+    color: var(--light-color);
+    border-color: var(--dark-color);
+  }

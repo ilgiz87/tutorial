@@ -1,0 +1,28 @@
+:root {
+	--container-width: 1230px;
+	--container-padding: calc(var(--gap-x)/2);
+	
+	--laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+
+	--font-main: 'Circular Std', sans-serif;
+	--font-heading: var(--font-main);
+
+
+	--page-bg: var(--light-color);
+	--text-color: var(--dark-color);
+
+	--light-color: #fbfbfb;
+	--dark-color: #181818;
+	--accent-color: #35AFF4;
+
+
+    --gap-x: 30px;
+	--inrto-img-link: ./images/02_intro/hero-img.jpg;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+	}

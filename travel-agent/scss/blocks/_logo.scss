@@ -1,0 +1,14 @@
+.logo {
+    font-size: 20px;
+
+    &__link {
+        display: inline-flex;
+        column-gap: .3em;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    &__icon {
+        width: 1.2em;
+    }
+}

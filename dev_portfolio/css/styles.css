@@ -45,7 +45,13 @@ select,
 button {
   font: inherit;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  color: #fff;
+}
 .container {
   max-width: 1230px;
   padding-inline: 40px;
@@ -58,13 +64,13 @@ button {
   font-family: "Prata", serif;
   font-size: 20px;
   padding: 16px 32px;
+  border: none;
+}
+.btn:hover{
+  background-color: #adadad;
 }
 .header {
   padding-block: 40px;
-}
-
-.header a {
-    text-decoration: none;
 }
 
 .header__container {
@@ -78,9 +84,15 @@ button {
   font-size: 20px;
   color: #fff;
 }
+.logo-link:hover{
+  color: #adadad;
+}
 .menu__list {
   display: flex;
   gap: 32px;
   justify-content: space-between;
   align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }

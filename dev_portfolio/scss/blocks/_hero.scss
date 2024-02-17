@@ -1,0 +1,40 @@
+.hero {
+    padding-block: 60px;
+}
+
+.hero__title {
+    max-width: 777px;
+    margin-bottom: 40px;
+}
+
+.hero__content {
+    max-width: 750px;
+    margin-bottom: 60px;
+}
+
+.hero__logo-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__logo-img {
+    path {
+        fill: currentcolor;
+    }
+}
+
+.walmart .decor,
+.visa .decor {
+    fill: #fbe850;
+}
+
+.tinder .decor {
+    fill: url(#decor);
+}
+
+.verizon .decor {
+    fill: #fd267d;
+}

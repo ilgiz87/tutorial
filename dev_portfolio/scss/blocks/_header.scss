@@ -1,0 +1,41 @@
+
+.btn{
+    display: inline-flex;
+    background-color: #FBE850;
+    color: #0a0a0a;
+    font-family: "Prata", serif;
+    font-size: 20px;
+    padding: 16px 32px;
+    border: none;
+  }
+  .btn:hover{
+    background-color: #adadad;
+  }
+  .header {
+    padding-block: 40px;
+  }
+  
+  .header__container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-link {
+    font-family: "Prata", serif;
+    font-size: 20px;
+    color: #fff;
+  }
+  .logo-link:hover{
+    color: #adadad;
+  }
+  .menu__list {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  

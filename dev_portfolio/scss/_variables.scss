@@ -1,9 +1,9 @@
 :root {
-  --color-dark: #191A23;
+  --color-dark: #0a0a0a;
   --color-dark-alt: #292A32;
   --color-light: #FFFFFF;
   --color-accent: #B9FF66;
-  --color-gray: #F3F3F3;
+  --color-gray: #adadad;
   --color-gray-alt: #898989;
 
   --border: 1px solid var(--color-dark);
@@ -13,10 +13,10 @@
 
   --shadow: 0 5px 0 0 var(--color-dark);
 
-  --font-family-base: 'Space Grotesk', sans-serif;
+  --font-family-base: "Inter", sans-serif;
 
-  --container-width: 1240px;
-  --container-padding-x: 20px;
+  --container-width: 1230px;
+  --container-padding-x: 40px;
 
   --section-padding-y: 70px;
 

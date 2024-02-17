@@ -1,0 +1,14 @@
+.founder {
+    padding-block: 75px;
+    background-color: #2E3038;
+    color: #fff;
+
+    &__container {
+        column-count: 2;
+        column-gap: 40px;
+    }
+
+    &__heading {
+        margin-bottom: .65em;
+    }
+}

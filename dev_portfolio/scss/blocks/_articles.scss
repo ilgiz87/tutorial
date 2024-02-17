@@ -1,0 +1,38 @@
+.articles {
+    padding-bottom: 80px;
+
+    &__container {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        gap: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__link {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+
+        &:after {
+            content: "→";
+            font-size: 2em;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+}

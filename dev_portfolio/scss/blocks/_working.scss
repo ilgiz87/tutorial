@@ -1,0 +1,11 @@
+.working {
+    padding-block: 75px;
+
+    &__content {
+        max-width: 595px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+}
